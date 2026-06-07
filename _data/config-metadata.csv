@@ -1,15 +1,22 @@
-field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,DCTERMS.coverage,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
+field,display_name,browse_link,external_link
+objectid,,,
+title,Title,true,
+author,Author,true,
+age_group,Age Group,true,
+boy,Boys,true,
+girl,Girls,true,
+gender_neutral,Gender Neutral,true,
+required_cast,Required Cast,true,
+ensemble,Ensemble,true,
+length,Length,true,
+genre,Genre,true,
+date_published,Date Published,true,
+date_description,Date Description,false,
+publisher,Publisher,true,
+licensing,Licensing,true,
+musical,Musical,true,
+adaptation,Adaptation,true,
+adaptation_of,Adaptation of,true,
+description,Description,true,
+colocated,Co-located,true,
+notes,Notes,true,

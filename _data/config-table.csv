@@ -1,5 +1,8 @@
 field,display_name
 title,Title
-date,Date
+author,Author
+age_group,Age Group
+required_cast,Required Cast
+date_published,Date Published
+licensing,Licensing
 description,Description
-subject,Subjects

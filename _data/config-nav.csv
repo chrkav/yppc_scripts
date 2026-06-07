@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
-Home,/,
+Home,/home.html,
 Browse,/browse.html,
-Subjects,/subjects.html,
-Locations,/locations.html,
-Map,/map.html,
+Genre,/genre.html,
+Age Group,/age_group.html,
+Required Cast,/required_cast.html,
 Timeline,/timeline.html,
 Data,/data.html,
 About,/about.html,
