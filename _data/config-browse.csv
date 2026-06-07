@@ -1,8 +1,8 @@
 field,display_name,btn,hidden,sort_name,facet_name
-title,Title,,,,Title
-description,,,true,,,
-author,Author,,,,,
-age_group,Age Group,btn,true,,Age Group
-required_cast,Required Cast,btn,true,,Required Cast
+title,Title,btn,false,Title,Title
+description,Description,btn,true,Description,Description,
+author,Author,btn,false,Author,Author
+age_group,Age Group,btn,true,Age Group,Age Group
+required_cast,Required Cast,btn,true,Required Cast,Required Cast
 length,Length,btn,true,,Length
 genre,Genre,btn,true,,Genre
