@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_033
+featured-image: 
 featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
 home-title-y-padding: 10em # the margin from the top your title portion will appear.
@@ -32,18 +32,18 @@ default-sort-field: # if a value is entered here, it must match one of the field
 browse-buttons: true # true / false, adds previous/next arrows to items, but increases build time
 
 ##########
-# SUBJECTS PAGE
+# GENRE PAGE
 #
-subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
-subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+genre-fields: genre # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+genre-min: 1 # min size for genres cloud, too many terms = slow load time!
+genre-stopwords: # set of genres separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
-# LOCATIONS PAGE
+# AGE GROUP PAGE
 #
-locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-locations-min: 1 # min size for subject cloud, too many terms = slow load time!
-locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+age_group-fields: age_group # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+age_group-min: 1 # min size for age_group cloud, too many terms = slow load time!
+age_group-stopwords: # set of age_group separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # MAP PAGE
@@ -71,9 +71,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,genre,date_published,date_description,publisher,licensing,musical,adaptation,adaptation_of,description,colocated,notes,format"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "objectid,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,genre,date_published,date_description,publisher,licensing,musical,adaptation,adaptation_of,description,colocated,notes,format"
 
 ##########
 # Compound Objects 
