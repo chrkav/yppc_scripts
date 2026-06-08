@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name,facet_name
-title,Title,btn,false,Title,Title
-description,Description,btn,true,Description,Description
-author,Author,btn,false,Author,Author
+title,Title,,false,Title,,
+description,Description,,true,Description,,
+author,Author,,false,Author,Author
 age_group,Age Group,btn,true,Age Group,Age Group
 required_cast,Required Cast,btn,true,Required Cast,Required Cast
 length,Length,btn,true,,Length
