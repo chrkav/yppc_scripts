@@ -16,7 +16,7 @@ custom-foot: js/browse-js.html
                 {% if site.data.theme.faceted-search == true %}
                 <select class="form-control form-select d-none d-lg-block" id="fieldSelect" style="max-width: 200px;" aria-label="select search field to filter">
                     <option value="all">All Fields</option>
-                    <option value="title">Title</option>
+                    <option value="title"></option>
                     {% for f in fields %}
                     {% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
