@@ -10,4 +10,4 @@ cloud-fields: age_group
 ## Age Groups
 
 Use this word cloud visualization to browse age groups.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Button size is determined by frequency and all buttons link to a corresponding collection search.
