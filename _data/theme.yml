@@ -46,6 +46,14 @@ age_group-min: 5 # min size for age_group cloud, too many terms = slow load time
 age_group-stopwords: # set of age_group separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
+# REQUIRED CAST PAGE
+#
+required_cast-fields: required_cast # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+required_cast-min: 5 # min size for age_group cloud, too many terms = slow load time!
+required_cast-stopwords: # set of age_group separated by ; that will be removed from display, e.g. boxers;boxing
+
+
+##########
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
