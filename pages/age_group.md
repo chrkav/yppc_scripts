@@ -4,7 +4,7 @@ layout: cloud
 permalink: /age_group.html
 # Default locations page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.locations-fields"
-cloud-fields: site.data.theme.age_group-fields
+cloud-fields: age_group
 ---
 
 ## Age Groups

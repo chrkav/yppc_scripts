@@ -2,7 +2,7 @@
 title: Required Cast
 layout: cloud
 permalink: /required_cast.html
-cloud-fields: site.data.theme.required_cast-fields
+cloud-fields: required_cast
 ---
 
 ## Required Cast
