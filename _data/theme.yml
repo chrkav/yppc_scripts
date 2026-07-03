@@ -88,6 +88,7 @@ year-nav-increment: # set increments to auto gen nav years
 metadata-export-fields: "objectid,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,genre,date_published,date_description,publisher,licensing,musical,adaptation,adaptation_of,description,colocated,notes,format"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "objectid,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,genre,date_published,date_description,publisher,licensing,musical,adaptation,adaptation_of,description,colocated,notes,format"
+default-sort-field: title
 
 ##########
 # Compound Objects 
