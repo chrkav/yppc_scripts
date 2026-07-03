@@ -6,3 +6,4 @@ age_group,Age Group,btn,true,Age Group,Age Group
 required_cast,Required Cast,btn,true,Required Cast,Required Cast
 length,Length,btn,true,,Length
 genre,Genre,btn,true,,Genre
+licensing,Licensing,btn,false,Licensing,Licensing
