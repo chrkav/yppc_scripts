@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name,facet_name
-title,Title,,false,Title,,
+title,Title,,false,Title,
 description,Description,,true,Description,,
 author,Author,,false,Author,Author
 age_group,Age Group,btn,true,Age Group,Age Group
